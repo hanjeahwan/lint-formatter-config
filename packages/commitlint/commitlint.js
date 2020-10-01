@@ -2,10 +2,6 @@
 
 module.exports = {
   extends: ["@commitlint/config-conventional"],
-  rules: {
-    "body-max-line-length": [0, "always", Infinity],
-    'ticket-rule': [2, 'always', ['https://pulsifi.atlassian.net/browse/BETA-', 'BETA-']],
-  },
   plugins: [
     {
       rules: {
