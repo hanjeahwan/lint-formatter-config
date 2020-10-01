@@ -1,8 +1,10 @@
 # Linter and Formatter
 
-Style Lint Typescript Lint Angular Lint Commit Lint And Prettier Plugins.
+Style Lint, Typescript Lint, Angular Lint, Commit Lint And Prettier Config Preset.
 
 #### Installation
+
+Install the linter or formatter u need.
 
 ```bash
 yarn add @dlwlrma/tslint-config --D
@@ -48,27 +50,28 @@ module.exports = {
 
 #### Git Hook
 
+```bash
+yarn add husky lint-staged --D
+```
+
 Git hook example for `Angular` project at `package.json`:
 
 ```json
   "scripts": {
     "lint": "npm run lint:ts && npm run lint:style",
     "lint:ts": "ng lint --fix",
-    "lint:style": "stylelint \"src/**/*.less\" --syntax less --fix",
-    "format": "prettier --write *.{js,json,less,ts,html,component.html}",
+    "lint:style": "stylelint \"**/*.less\" --syntax less --fix --allow-empty-input",
+    "format": "prettier --write \"**/*.{js,json,less,ts,html,component.html}\""
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run lint:ts && lint-staged"
+      "pre-commit": "npm run lint && lint-staged"
     }
   },
   "lint-staged": {
     "*.{js,json,css,less,ts,html,component.html}": [
       "prettier --write"
-    ],
-    "*.less": [
-      "stylelint --syntax less --fix"
     ]
   }
 ```
