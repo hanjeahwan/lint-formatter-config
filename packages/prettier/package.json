@@ -1,0 +1,35 @@
+{
+  "name": "@dlwlrma/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier Config Used For All Project",
+  "author": "Hanjeahwan <hanjeahwan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanjeahwan/lint-formatter-config"
+  },
+  "main": "prettier.js",
+  "dependencies": {
+    "prettier": "^2.1.2"
+  },
+  "release": {
+    "branch": "master",
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

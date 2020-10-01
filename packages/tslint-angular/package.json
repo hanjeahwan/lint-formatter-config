@@ -1,0 +1,40 @@
+{
+  "name": "@dlwlrma/tslint-config-angular",
+  "version": "1.0.0",
+  "description": "Tslint Config Used For Angular Project",
+  "author": "Hanjeahwan <hanjeahwan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanjeahwan/lint-formatter-config"
+  },
+  "main": "tslint-angular.js",
+  "dependencies": {
+    "rxjs-tslint-rules": "^4.34.3"
+  },
+  "peerDependencies": {
+    "tslint": ">=5.0.0",
+    "typescript": ">=3.0.0",
+    "codelyzer": ">=5.1.2"
+  },
+  "release": {
+    "branch": "master",
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@dlwlrma/lint-formatter-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Preset Config Of Linter And Formatter Tools",
+  "author": "Hanjeahwan <hanjeahwan@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "multi-semantic-release",
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "devDependencies": {
+    "@qiwi/multi-semantic-release": "^3.8.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^17.1.1"
+  }
+}
