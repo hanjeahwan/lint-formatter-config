@@ -26,6 +26,7 @@ module.exports = {
     'template-no-negated-async': true,
     'use-lifecycle-interface': true,
     'use-pipe-transform-interface': true,
+    'prefer-on-push-component-change-detection': true,
     'rxjs-finnish': {
       options: [
         {
