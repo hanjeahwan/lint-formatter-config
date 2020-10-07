@@ -11,7 +11,7 @@
   "main": "tslint-angular.js",
   "dependencies": {
     "rxjs-tslint-rules": "^4.34.3",
-    "codelyzer": "^6.1.2"
+    "codelyzer": "^6.0.1"
   },
   "peerDependencies": {
     "tslint": ">=6.0.0",
