@@ -98,7 +98,7 @@ module.exports = {
     'no-var-keyword': true,
     'no-var-requires': false,
     'number-literal-format': true,
-    'object-literal-key-quotes': [true, 'as-needed'],
+    'object-literal-key-quotes': [true, 'consistent-as-needed'],
     'one-line': [true, 'check-open-brace', 'check-catch', 'check-else', 'check-whitespace'],
     'one-variable-per-declaration': [true, 'ignore-for-loop'],
     'ordered-imports': [
