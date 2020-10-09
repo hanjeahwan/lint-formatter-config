@@ -32,7 +32,7 @@ Example for enforce ticket reference at commit message body
 }
 ```
 
-Simply read the [commitlint](https://github.com/conventional-changelog/commitlint) documentation about using the linter and follow those instructions.
+Simply read the [commitlint](https://github.com/conventional-changelog/commitlint) documentation and follow those instructions.
 
 ## Git Hook
 
