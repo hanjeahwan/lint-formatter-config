@@ -1,60 +1,33 @@
 # Linter and Formatter
 
-Style Lint, Typescript Lint, Angular Lint, Commit Lint And Prettier Config Preset.
+Typescript Lint, Style Lint, Angular Code Lint, Commit Message Lint And Code Formatter Config Preset.
 
-#### Installation
+| Package                          | Description                                                         | Docs                                     |
+| -------------------------------- | ------------------------------------------------------------------- | ---------------------------------------- |
+| `@dlwlrma/tslint-config`         | Tslint Config                                                       | [Getting Started][tslint-config]         |
+| `@dlwlrma/tslint-config-angular` | Tslint Config for Angular. Included codelyzer and rxjs-tslint-rules | [Getting Started][tslint-config-angular] |
+| `@dlwlrma/stylelint-config`      | Stylelint Config                                                    | [Getting Started][stylelint-config]      |
+| `@dlwlrma/prettier-config`       | Code Formatter Config                                               | [Getting Started][prettier-config]       |
+| `@dlwlrma/commitlint-config`     | Commitlint Config                                                   | [Getting Started][commitlint-config]     |
 
-Install the linter or formatter u need.
-
-```bash
-yarn add @dlwlrma/tslint-config --D
-yarn add @dlwlrma/tslint-config-angular --D
-yarn add @dlwlrma/stylelint-config --D
-yarn add @dlwlrma/commitlint-config --D
-yarn add @dlwlrma/prettier-config --D
-```
-
-After install at `tslint.json`:
-
-```json
-{
-  "extends": ["@dlwlrma/tslint-config", "@dlwlrma/tslint-config-angular"],
-  "rules": {}
-}
-```
-
-After install at `stylelint.config.js`:
-
-```json
-{
-  "extends": ["@dlwlrma/stylelint-config"],
-  "rules": {}
-}
-```
-
-After install at `commitlint.config.js`:
-
-```json
-{
-  "extends": ["@dlwlrma/commitlint-config"]
-}
-```
-
-After install at `prettier.config.js`:
-
-```json
-module.exports = {
-  ...require('@dlwlrma/prettier-config')
-};
-```
+[tslint-config]: https://github.com/hanjeahwan/lint-formatter-config/tree/master/packages/tslint
+[tslint-config-angular]: https://github.com/hanjeahwan/lint-formatter-config/tree/master/packages/tslint-angular
+[stylelint-config]: https://github.com/hanjeahwan/lint-formatter-config/tree/master/packages/stylelint
+[prettier-config]: https://github.com/hanjeahwan/lint-formatter-config/tree/master/packages/prettier
+[commitlint-config]: https://github.com/hanjeahwan/lint-formatter-config/tree/master/packages/commitlint
 
 #### Git Hook
 
+Setup for pre-commit hook to execute linter and formatter for commited file and commit message.
+
 ```bash
 yarn add husky lint-staged --D
+npm install husky lint-staged --save-dev
 ```
 
-Git hook example for `Angular` project at `package.json`:
+#### Example
+
+Below is `package.json` for a angular project with use of `Less` css.
 
 ```json
   "scripts": {
