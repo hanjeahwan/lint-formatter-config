@@ -4,7 +4,7 @@ module.exports = {
   extends: ['tslint:recommended'],
   rules: {
     'align': [true, 'parameters', 'statements'],
-    'array-type': [true, 'array'],
+    'array-type': [true, 'array-simple'],
     'arrow-parens': false,
     'arrow-return-shorthand': true,
     'await-promise': true,
