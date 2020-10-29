@@ -1,3 +1,10 @@
+# @dlwlrma/tslint-config [1.1.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.0.2...@dlwlrma/tslint-config@1.1.0) (2020-10-29)
+
+
+### Features
+
+* default array type as array-simple ([b468000](https://github.com/hanjeahwan/lint-formatter-config/commit/b4680007bd4ea923f6da0adc7773f6361f67106a))
+
 ## @dlwlrma/tslint-config [1.0.2](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.0.1...@dlwlrma/tslint-config@1.0.2) (2020-10-08)
 
 
