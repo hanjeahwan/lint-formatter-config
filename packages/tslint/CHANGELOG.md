@@ -1,3 +1,10 @@
+# @dlwlrma/tslint-config [1.2.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.1.0...@dlwlrma/tslint-config@1.2.0) (2020-11-02)
+
+
+### Features
+
+* add assertion rule ([1d8af59](https://github.com/hanjeahwan/lint-formatter-config/commit/1d8af59f02da0b9bfea13a0b45fcff8f6cbe9546))
+
 # @dlwlrma/tslint-config [1.1.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.0.2...@dlwlrma/tslint-config@1.1.0) (2020-10-29)
 
 
