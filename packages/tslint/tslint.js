@@ -122,7 +122,7 @@ module.exports = {
     'semicolon': [true, 'always', 'ignore-bound-class-methods'],
     'space-before-function-paren': {
       options: {
-        anonymous: 'never',
+        anonymous: 'always',
         asyncArrow: 'always',
         constructor: 'never',
         method: 'never',
