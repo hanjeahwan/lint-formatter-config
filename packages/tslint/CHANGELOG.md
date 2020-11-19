@@ -1,3 +1,10 @@
+# @dlwlrma/tslint-config [1.3.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.2.0...@dlwlrma/tslint-config@1.3.0) (2020-11-19)
+
+
+### Features
+
+* sync space before function with prettier ([197caeb](https://github.com/hanjeahwan/lint-formatter-config/commit/197caeb8d235c93e0ba43fcf65332a41bfd904df))
+
 # @dlwlrma/tslint-config [1.2.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.1.0...@dlwlrma/tslint-config@1.2.0) (2020-11-02)
 
 
