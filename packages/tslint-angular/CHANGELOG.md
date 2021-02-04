@@ -1,3 +1,10 @@
+## @dlwlrma/tslint-config-angular [1.1.2](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config-angular@1.1.1...@dlwlrma/tslint-config-angular@1.1.2) (2021-02-04)
+
+
+### Bug Fixes
+
+* wrong lint rule placed ([8e8f70d](https://github.com/hanjeahwan/lint-formatter-config/commit/8e8f70d0f0c932e0db73f24f9a302be40d0125c4))
+
 ## @dlwlrma/tslint-config-angular [1.1.1](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config-angular@1.1.0...@dlwlrma/tslint-config-angular@1.1.1) (2020-10-07)
 
 
