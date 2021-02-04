@@ -1,3 +1,10 @@
+## @dlwlrma/tslint-config [1.3.1](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.3.0...@dlwlrma/tslint-config@1.3.1) (2021-02-04)
+
+
+### Bug Fixes
+
+* wrong lint rule placed ([8e8f70d](https://github.com/hanjeahwan/lint-formatter-config/commit/8e8f70d0f0c932e0db73f24f9a302be40d0125c4))
+
 # @dlwlrma/tslint-config [1.3.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config@1.2.0...@dlwlrma/tslint-config@1.3.0) (2020-11-19)
 
 
