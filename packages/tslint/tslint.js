@@ -21,7 +21,6 @@ module.exports = {
     'callable-types': true,
     'class-name': true,
     'comment-format': [true, 'check-space'],
-    'contextual-life-cycle': true,
     'curly': true,
     'deprecation': {
       severity: 'warn',
@@ -153,7 +152,6 @@ module.exports = {
     'unnecessary-else': true,
     'use-host-property-decorator': false,
     'use-isnan': true,
-    'use-life-cycle-interface': true,
     'use-view-encapsulation': false,
     'variable-name': [true, 'ban-keywords', 'allow-leading-underscore'],
     'whitespace': [

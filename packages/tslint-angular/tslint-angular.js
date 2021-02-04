@@ -8,6 +8,7 @@ module.exports = {
     'component-class-suffix': true,
     'component-selector': [true, 'element', ['npx'], 'kebab-case'],
     'contextual-lifecycle': true,
+    'contextual-life-cycle': true,
     'directive-class-suffix': true,
     'directive-selector': [true, 'attribute', ['npx'], 'camelCase'],
     'no-attribute-decorator': true,
@@ -25,6 +26,7 @@ module.exports = {
     'template-banana-in-box': true,
     'template-no-negated-async': true,
     'use-lifecycle-interface': true,
+    'use-life-cycle-interface': true,
     'use-pipe-transform-interface': true,
     'prefer-on-push-component-change-detection': true,
     'rxjs-finnish': {
