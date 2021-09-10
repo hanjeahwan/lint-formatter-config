@@ -10,8 +10,8 @@
   },
   "main": "tslint-angular.js",
   "dependencies": {
-    "rxjs-tslint-rules": "^4.34.3",
-    "codelyzer": "^6.0.1"
+    "rxjs-tslint-rules": "^4.34.8",
+    "codelyzer": "^6.0.2"
   },
   "peerDependencies": {
     "tslint": ">=6.0.0",
