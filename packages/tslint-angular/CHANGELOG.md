@@ -1,3 +1,10 @@
+# @dlwlrma/tslint-config-angular [1.2.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config-angular@1.1.2...@dlwlrma/tslint-config-angular@1.2.0) (2021-09-10)
+
+
+### Features
+
+* update to angular 12 ([f47f4c6](https://github.com/hanjeahwan/lint-formatter-config/commit/f47f4c6dfdfb74f1d0a97811025f13a57356cd4a))
+
 ## @dlwlrma/tslint-config-angular [1.1.2](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config-angular@1.1.1...@dlwlrma/tslint-config-angular@1.1.2) (2021-02-04)
 
 

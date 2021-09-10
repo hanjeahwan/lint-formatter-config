@@ -1,6 +1,6 @@
 {
   "name": "@dlwlrma/tslint-config-angular",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Tslint Config Used For Angular Project",
   "author": "Hanjeahwan <hanjeahwan@gmail.com>",
   "license": "MIT",
