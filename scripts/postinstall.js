@@ -2,21 +2,14 @@ const rimraf = require('rimraf');
 const fs = require('fs');
 const path = require('path');
 
-const packages = [
-  'tslint',
-  'tslint-angular',
-  'stylelint',
-  'commitlint',
-  'prettier',
-]
+const packages = ['tslint', 'tslint-angular', 'stylelint', 'commitlint', 'prettier', 'eslint-angular'];
 
 const root = process.cwd();
 
-packages.forEach(package => {
+packages.forEach((package) => {
   let targetPath = path.join(root, `packages/${package}/node_modules`);
 
   if (fs.existsSync(targetPath)) {
     rimraf.sync(targetPath);
   }
-})
-
+});

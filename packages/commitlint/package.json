@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/hanjeahwan/lint-formatter-config"
   },
-  "main": "commitlint.js",
+  "main": "index.js",
   "dependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1"

@@ -8,9 +8,9 @@
     "type": "git",
     "url": "https://github.com/hanjeahwan/lint-formatter-config"
   },
-  "main": "prettier.js",
+  "main": "index.js",
   "dependencies": {
-    "prettier": "^2.1.2"
+    "prettier": "^2.4.1"
   },
   "release": {
     "branch": "master",

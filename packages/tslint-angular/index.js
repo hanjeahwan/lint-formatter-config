@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   rulesDirectory: ['codelyzer'],
   extends: ['rxjs-tslint-rules'],

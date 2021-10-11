@@ -1,0 +1,40 @@
+{
+  "name": "@dlwlrma/eslint-config-angular",
+  "version": "1.0.0",
+  "description": "ESLint Config Used For Angular Project",
+  "author": "Hanjeahwan <hanjeahwan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanjeahwan/lint-formatter-config"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "@angular-eslint/eslint-plugin": "^12.5.0",
+    "@angular-eslint/eslint-plugin-template": "^12.5.0",
+    "@angular-eslint/template-parser": "^12.5.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-rxjs": "^3.3.7",
+    "eslint-plugin-rxjs-angular": "^1.0.6"
+  },
+  "release": {
+    "branch": "master",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
