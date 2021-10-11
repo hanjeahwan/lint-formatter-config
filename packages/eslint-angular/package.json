@@ -9,9 +9,7 @@
     "url": "https://github.com/hanjeahwan/lint-formatter-config"
   },
   "main": "index.js",
-  "scripts": {
-    "postinstall": "npx install-peerdeps @dlwlrma/eslint-config-angular --dev --yarn --extra-args \"--exact\" --dry-run"
-  },
+  "scripts": {},
   "dependencies": {},
   "peerDependencies": {
     "@angular-eslint/builder": "^12.5.0",
