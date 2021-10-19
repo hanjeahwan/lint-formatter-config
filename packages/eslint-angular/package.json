@@ -1,6 +1,6 @@
 {
-  "name": "@dlwlrma/eslint-config-angular",
-  "version": "1.1.0",
+  "name": "@dlwlrma/eslint-plugin-angular",
+  "version": "1.0.0",
   "description": "ESLint Config Used For Angular Project",
   "author": "Hanjeahwan <hanjeahwan@gmail.com>",
   "license": "MIT",
@@ -9,22 +9,26 @@
     "url": "https://github.com/hanjeahwan/lint-formatter-config"
   },
   "main": "index.js",
-  "scripts": {},
-  "dependencies": {},
-  "peerDependencies": {
+  "scripts": {
+    "prepublishOnly": "lerna clean --yes --scope @dlwlrma/eslint-plugin-angular"
+  },
+  "dependencies": {
     "@angular-eslint/builder": "^12.5.0",
     "@angular-eslint/eslint-plugin": "^12.5.0",
     "@angular-eslint/eslint-plugin-template": "^12.5.0",
     "@angular-eslint/schematics": "^12.5.0",
     "@angular-eslint/template-parser": "^12.5.0",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-rxjs": "^3.3.7",
-    "eslint-plugin-rxjs-angular": "^1.0.6"
+    "eslint-plugin-rxjs": "^4.0.0",
+    "eslint-plugin-rxjs-angular": "^2.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-typescript-sort-keys": "^2.0.0",
+    "prettier": "^2.4.1"
   },
   "release": {
     "branch": "master",
@@ -39,19 +43,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "@angular-eslint/eslint-plugin": "12.5.0",
-    "@angular-eslint/eslint-plugin-template": "12.5.0",
-    "@angular-eslint/template-parser": "12.5.0",
-    "@dlwlrma/eslint-config-angular": "1.1.0",
-    "@typescript-eslint/eslint-plugin": "4.33.0",
-    "@typescript-eslint/parser": "4.33.0",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.24.2",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-rxjs": "3.3.7",
-    "eslint-plugin-rxjs-angular": "1.0.6"
   }
 }

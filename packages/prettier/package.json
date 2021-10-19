@@ -9,6 +9,9 @@
     "url": "https://github.com/hanjeahwan/lint-formatter-config"
   },
   "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "lerna clean --yes --scope @dlwlrma/prettier-config"
+  },
   "dependencies": {
     "prettier": "^2.4.1"
   },

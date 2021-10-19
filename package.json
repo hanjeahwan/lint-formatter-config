@@ -9,8 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "multi-semantic-release",
-    "postinstall": "node ./scripts/postinstall.js"
+    "release": "multi-semantic-release"
   },
   "devDependencies": {
     "@qiwi/multi-semantic-release": "^3.16.0",

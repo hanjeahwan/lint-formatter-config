@@ -1,4 +1,4 @@
-### All Rules
+# All Rules
 
 [
 "contextual-decorator",

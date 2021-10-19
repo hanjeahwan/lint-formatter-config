@@ -1,6 +1,6 @@
 # Stylelint Config Preset
 
-[![HanJeaHwan](https://circleci.com/gh/hanjeahwan/lint-formatter-config.svg?style=shield&circle-token=65b771ace31fbc5f2bac533456890c5524624dc6)]()
+[![HanJeaHwan](https://circleci.com/gh/hanjeahwan/lint-formatter-config.svg?style=shield&circle-token=65b771ace31fbc5f2bac533456890c5524624dc6)](https://circleci.com)
 [![NPM version](https://img.shields.io/npm/v/@dlwlrma/stylelint-config.svg)](https://www.npmjs.org/package/@dlwlrma/stylelint-config)
 [![NPM Downloads](https://img.shields.io/npm/dm/@dlwlrma/stylelint-config.svg)](https://npmcharts.com/compare/@dlwlrma/stylelint-config?minimal=true)
 

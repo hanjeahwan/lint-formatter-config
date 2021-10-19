@@ -9,6 +9,9 @@
     "url": "https://github.com/hanjeahwan/lint-formatter-config"
   },
   "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "lerna clean --yes --scope @dlwlrma/tslint-config"
+  },
   "peerDependencies": {
     "tslint": ">=6.0.0",
     "typescript": ">=4.0.0"
