@@ -1,3 +1,10 @@
+# @dlwlrma/prettier-config [1.2.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/prettier-config@1.1.0...@dlwlrma/prettier-config@1.2.0) (2021-10-19)
+
+
+### Features
+
+* update eslint config and version ([71c3b71](https://github.com/hanjeahwan/lint-formatter-config/commit/71c3b711da21ce90bff2dcdb528c310ac1a40dc3))
+
 # @dlwlrma/prettier-config [1.1.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/prettier-config@1.0.0...@dlwlrma/prettier-config@1.1.0) (2021-10-11)
 
 
