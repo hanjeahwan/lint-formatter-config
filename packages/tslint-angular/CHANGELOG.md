@@ -1,3 +1,10 @@
+# @dlwlrma/tslint-config-angular [1.4.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config-angular@1.3.0...@dlwlrma/tslint-config-angular@1.4.0) (2021-10-19)
+
+
+### Features
+
+* update eslint config and version ([71c3b71](https://github.com/hanjeahwan/lint-formatter-config/commit/71c3b711da21ce90bff2dcdb528c310ac1a40dc3))
+
 # @dlwlrma/tslint-config-angular [1.3.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/tslint-config-angular@1.2.0...@dlwlrma/tslint-config-angular@1.3.0) (2021-10-11)
 
 
