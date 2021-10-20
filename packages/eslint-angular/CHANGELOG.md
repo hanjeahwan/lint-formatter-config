@@ -1,3 +1,10 @@
+## @dlwlrma/eslint-plugin-angular [1.0.3](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/eslint-plugin-angular@1.0.2...@dlwlrma/eslint-plugin-angular@1.0.3) (2021-10-20)
+
+
+### Bug Fixes
+
+* rxjs version compatible ([cb015e2](https://github.com/hanjeahwan/lint-formatter-config/commit/cb015e23f4789a77f937e6650c748411a767281e))
+
 ## @dlwlrma/eslint-plugin-angular [1.0.2](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/eslint-plugin-angular@1.0.1...@dlwlrma/eslint-plugin-angular@1.0.2) (2021-10-20)
 
 
