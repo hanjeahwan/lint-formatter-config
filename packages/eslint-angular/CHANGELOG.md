@@ -1,3 +1,10 @@
+## @dlwlrma/eslint-plugin-angular [1.0.2](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/eslint-plugin-angular@1.0.1...@dlwlrma/eslint-plugin-angular@1.0.2) (2021-10-20)
+
+
+### Bug Fixes
+
+* eslint version compatible ([da24e04](https://github.com/hanjeahwan/lint-formatter-config/commit/da24e04f6a3c009830427c6bca5c1bd9ca02ed02))
+
 ## @dlwlrma/eslint-plugin-angular [1.0.1](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/eslint-plugin-angular@1.0.0...@dlwlrma/eslint-plugin-angular@1.0.1) (2021-10-20)
 
 
