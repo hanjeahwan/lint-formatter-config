@@ -1,6 +1,6 @@
 {
   "name": "@dlwlrma/eslint-plugin-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint Config Used For Angular Project",
   "author": "Hanjeahwan <hanjeahwan@gmail.com>",
   "license": "MIT",
