@@ -1,3 +1,10 @@
+# @dlwlrma/prettier-config [1.3.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/prettier-config@1.2.0...@dlwlrma/prettier-config@1.3.0) (2022-01-06)
+
+
+### Features
+
+* change end of line to crlf ([7e819a1](https://github.com/hanjeahwan/lint-formatter-config/commit/7e819a1dbaa76eb711b0ed405711cc00ea488fe4))
+
 # @dlwlrma/prettier-config [1.2.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/prettier-config@1.1.0...@dlwlrma/prettier-config@1.2.0) (2021-10-19)
 
 
