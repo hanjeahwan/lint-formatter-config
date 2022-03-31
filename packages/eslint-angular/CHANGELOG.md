@@ -1,3 +1,15 @@
+# @dlwlrma/eslint-plugin-angular [2.0.0](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/eslint-plugin-angular@1.0.3...@dlwlrma/eslint-plugin-angular@2.0.0) (2022-03-31)
+
+
+### Features
+
+* update all deps to eslint 8 ([05defbe](https://github.com/hanjeahwan/lint-formatter-config/commit/05defbee964fc1366f30e75039263a8dbad4120a))
+
+
+### BREAKING CHANGES
+
+* update all deps to latest version
+
 ## @dlwlrma/eslint-plugin-angular [1.0.3](https://github.com/hanjeahwan/lint-formatter-config/compare/@dlwlrma/eslint-plugin-angular@1.0.2...@dlwlrma/eslint-plugin-angular@1.0.3) (2021-10-20)
 
 
