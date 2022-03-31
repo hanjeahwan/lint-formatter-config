@@ -18,6 +18,7 @@ module.exports = {
         'plugin:@angular-eslint/recommended--extra',
         'plugin:@angular-eslint/template/process-inline-templates',
         'plugin:rxjs/recommended',
+        'plugin:sonarjs/recommended',
         'plugin:prettier/recommended',
       ],
       plugins: ['rxjs-angular', 'import'],
@@ -78,6 +79,7 @@ module.exports = {
         ],
         // These 3 no-unsafe need angular form strong type
         '@typescript-eslint/no-unsafe-assignment': 'off',
+        '@typescript-eslint/no-unsafe-argument': 'off',
         '@typescript-eslint/no-unsafe-member-access': 'off',
         '@typescript-eslint/no-unsafe-return': 'off',
         '@typescript-eslint/no-unsafe-call': 'off',
